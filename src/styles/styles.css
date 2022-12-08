@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Common */
+.container {
+  max-width: 950px;
+  margin: 2rem auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row h1,
+.row h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column div {
+  margin-top: 1rem;
+}
+
+/* User form */
+#user-form {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+#start-game {
+  margin-top: 2rem;
+}
+
+/* Board */
+.icon {
+  margin-right: 0.25rem;
+}
+
+.turn {
+  color: white;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  margin: 0px auto;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.turn h1 {
+  margin: 0px;
+}
+
+#turn-pill-one {
+  background-color: #ffb703;
+}
+
+#turn-pill-two {
+  background-color: #e63946;
+}
+
+#turn-pill-tie {
+  background-color: darkslategray;
+}
+
+#turn-pill-victory {
+  background-color: #2a9d8f;
+}
+
+#board {
+  margin: 0px auto;
+  border: 5px solid #1769aa;
+  border-radius: 2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 53, 102, 1) 0%,
+    rgba(0, 29, 61, 1) 100%
+  );
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* Tiles */
+.tile {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tile-0 {
+  background-color: white;
+}
+
+.tile-1 {
+  background-color: #ffb703;
+}
+
+.tile-2 {
+  background-color: #e63946;
+}
+
+.tile-end {
+  border: 2px solid #a7c957;
+}
+
+/* Action buttons on board */
+#button-group {
+  margin-top: 1rem;
+}
+
+#button-group button {
+  margin: 0px 0.5rem;
+}
+
+/* Score modal content */
+#score-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+#score-title {
+  margin: 1rem auto;
+}
+
+/* Scoreboard */
+#close-score {
+  position: absolute;
+  right: 0;
+}
