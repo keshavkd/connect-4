@@ -3,7 +3,7 @@ import "../styles/styles.css";
 import Button from "@mui/material/Button";
 import Scoreboard from "./Scoreboard";
 import { boxStyles, solveBoard } from "../util/boardHelper";
-import { GameContext } from "../util/gameContext";
+import { GameContext } from "../util/GameContext";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 
