@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 import "../styles/styles.css";
 import Board from "./Board";
 
-import { GameContext } from "../util/gameContext";
+import { GameContext } from "../util/GameContext";
 
 enum PlayerFields {
   NAME,
