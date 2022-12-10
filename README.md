@@ -31,3 +31,7 @@ The rules of the game are:
 ```
 npm install && npm start
 ```
+
+## Web server
+
+- [Link to game](https://63941f32d3b1f2585421bb3f--super-yeot-228c22.netlify.app/)
