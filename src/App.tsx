@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import UserForm from "./components/UserForm";
-import { GameContext } from "./util/gameContext";
+import { GameContext } from "./util/GameContext";
 
 function App() {
   const [playerOneName, setPlayerOneName] = useState<string>("");
